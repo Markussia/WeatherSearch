@@ -1,0 +1,117 @@
+body{
+    background:linear-gradient(135deg,#50d5b7,#067d68);
+}
+
+.change-theme[data-theme="greenblue"]
+{	
+    border: 2px solid #fff;
+    transition: .2s ease-in;
+}
+
+.search-box input{    
+    color: #fff;        
+}
+
+.search-box input::placeholder{
+    color: #fff;    
+}
+
+.search-box button{
+    background-color: rgba(197, 197, 197, 0.8);
+    color: #fff;
+}
+
+.search-box button:hover{
+    color: #000;
+    background-color:rgb(52,200,169);    
+}
+
+.weather-box .far {
+    color: #fff;
+}
+
+.weather-box .temperature{
+    color: #fff;
+}
+
+
+.weather-details i{
+    color: #06283Ddc;
+    font-size: 26px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.weather-details span {
+    color: #fff;
+    
+}
+
+.weather-details i{
+    color:#fff;
+}
+
+.weather-details{
+   color: #fff; 
+   }
+   
+.weather-box p{
+    color: #fff;
+}
+
+.search-box i {   
+    color: #fff;
+}
+
+
+.not-found{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+
+
+.not-found p{
+    color: #fff;
+}
+
+.not-found span{
+    color: #fff;
+}
+
+.not-found button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.not-found button:hover{
+   
+    color: #ffffff;
+    background-color: gray;
+}
+
+.popupq{
+    color: #fff;
+}
+
+#closeqq{
+    color: #000;
+    background-color: #71cfba;
+}
+
+#closeqq:hover{
+    color: #000;
+    background-color: rgba(255,255,255,.8);
+}
+
+
+.timer-block-git p{
+    background-color: #ffeaff74;
+}
+
+ .block-timer-git {
+    color: #fff;    
+}

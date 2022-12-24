@@ -1,0 +1,165 @@
+.theme{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;   
+    background-color: gray;
+    border-radius: 15px;
+    padding: 15px;
+    right: 0;
+    margin: 15px;
+    backdrop-filter: blur(19px) saturate(127%);
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(19px) saturate(127%);
+    background-color: rgba(17, 25, 40, 0.14);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    cursor: pointer;
+}
+
+.theme p{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.modal-content{
+    min-width: 250px;
+    width: 350px;
+}
+
+.closea{
+      color: #fff;
+      font-weight: bold;
+      margin: 0 auto;
+      text-align: center;
+      background-color: black;
+      width: 150px;
+      cursor: pointer;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      padding: 2px 0;
+      border: 2px solid transparent;
+      border-radius: 15px;
+}
+
+.theme i{
+    padding: 5px;
+}
+
+.theme i:active{
+    color: #B7AAF1;
+    transition: ease;
+}
+
+.circle-theme:nth-child(1){
+    background-color: rgb(0, 0, 0);
+    width: 18px;
+    margin: 0 3px;
+    height: 18px;
+    border-radius: 15px;
+}
+
+.circle-theme:nth-child(2){
+    background-color: rgb(255, 255, 255);
+    width: 18px;
+    margin: 0 3px;
+    height: 18px;
+    border-radius: 15px;
+}
+
+.circle-theme:nth-child(3){
+    background:linear-gradient(135deg,#50d5b7,#067d68);
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+
+    border-radius: 15px;
+}
+
+.circle-theme:nth-child(4){
+    background:linear-gradient(135deg,#4b086d,#acc0fe);
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+
+    border-radius: 15px;
+}
+
+.circle-theme:nth-child(5){
+    background:linear-gradient(135deg,#ED765E 5%,#FEA858);
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+
+    border-radius: 15px;
+}
+
+.circle-theme:nth-child(6){
+    background: linear-gradient(135deg,#ccfbff,#ef96c5);
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+
+    border-radius: 15px;
+}
+
+.circle-theme:nth-child(7){
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+
+    border-radius: 15px;
+}
+
+.town-settings{
+    font-weight: 700;   
+    background-color: gray;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    backdrop-filter: blur(19px) saturate(127%);
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(19px) saturate(127%);
+    background-color: rgba(17, 25, 40, 0.14);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    cursor: pointer;
+}
+
+.town-settings input{
+    width: 80%;
+    background-color: transparent;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgba(255,255,255,.6);
+    padding: 3px 0;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.js-tilda-rule{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(17, 25, 40, 0.14);
+    padding:  5px 15px;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+}

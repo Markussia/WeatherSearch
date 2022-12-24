@@ -1,0 +1,72 @@
+#myBtn{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    backdrop-filter: blur(19px) saturate(127%);
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(19px) saturate(127%);
+    background-color: rgba(17, 25, 40, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Модальный (фон) */
+
+
+.modal {
+    
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1002;
+    width: 400px;
+    
+  }
+  
+  /* Модальное содержание/коробка */
+  .modal-content {
+    backdrop-filter: blur(19px) saturate(127%);
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(19px) saturate(127%);
+    background-color: rgba(17, 25, 40, 0.14);
+    border-radius: 15px;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%; 
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+  }
+
+
+
+  /* Кнопка закрытия */
+  .close {
+      color: #fff;
+      font-weight: bold;
+      margin: 0 auto;
+      text-align: center;
+      background-color: black;
+      width: 150px;
+      cursor: pointer;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      padding: 2px 0;
+      border: 2px solid transparent;
+      border-radius: 15px;
+      
+}
+
+
+
+/*стартовое модпльное окно*/
+
+

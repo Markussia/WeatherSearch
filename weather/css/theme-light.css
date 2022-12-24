@@ -1,0 +1,43 @@
+body{
+    background-color: fffdc;
+}
+/* .change-theme[data-theme="dark"]
+{	
+	
+	display: block;
+	transition: .2s ease-in;
+}
+
+.change-theme[data-theme="light"]
+{	
+	display: none;
+	transition: .2s ease-in;
+}
+
+ .change-theme[data-theme="light"]>i{
+    color: #fff;
+}*/
+
+.change-theme[data-theme="light"]
+{	
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.fa-palette{
+    color: #000;
+}
+
+.timer-text-td h2{
+    background-color: #706E6E;
+    color: #fff;
+}
+
+#timer p:nth-child(1){
+    background-color: #7A7A7A;
+    color: #fff;
+}
+
+#timer p:nth-child(2){
+    background-color: #7A7A7A;
+    color: #fff;
+}

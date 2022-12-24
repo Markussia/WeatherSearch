@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(135deg,#ccfbff,#ef96c5);
+}
+
+.change-theme[data-theme="blue-pink"]
+{	
+    border: 2px solid #000;
+    transition: .2s ease-in;
+}
+
+.block-timer-git {
+    color: #fff;    
+}
+
+.timer-block-git p{
+    background-color: #ffeaff74;
+}

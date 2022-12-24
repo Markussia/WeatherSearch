@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <!--metatextblock-->
+   
+<meta name="description" content="Быстрый поиск погоды">
+<meta property="og:url" content="https://suntimedev.com/mark/weather/">
+<meta property="og:title" content="WeatherSearch"><meta property="og:description" content="Быстрй поск погоды">
+<meta property="og:type" content="website">
+<meta property="og:image" content="favicon.ico">
+<link rel="canonical" href="https://suntimedev.com/mark/weather/">
+<!--/metatextblock-->
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>weather</title>
+    <script src="https://kit.fontawesome.com/6b51411083.js" crossorigin="anonymous"></script>
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" title="theme" href="css/theme-white-pink.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/modal-start.css">
+
+</head>
+<body class="notranslate">
+    
+    <div id="overlayqP">
+      <div class="popupqP">
+        <h2>Новое обновление</h2>
+        <h3>1.7</h3>
+        <div class="update-block">
+            <ol>
+                <li>Добавлено запоминание города</li>
+                <li>Изменены баги с темами</li>
+                <li>Повторный фикс багов шрифтов</li>
+                <li>Добавлена страница с таймером проекта на GitHub</li>
+                <li>Удаление запоминания города при неправильном запросе</li>             
+            </ol>
+            
+        </div>
+            <button id="closeqqP" class="closeqP" title="Закрыть" onclick="closeModal()">
+            Понятно
+            </button>
+      </div>
+    </div>
+    
+    <script src="js/modal/modal-start.js"></script>
+
+    
+    <div class="test">
+        <p href="">ru</p>
+        <a href="index_ua.html">ua</a>
+        <a href="index_en.html">en</a>
+        <a href="index_by.html">by</a>
+    </div>
+    
+    <div class="block-timer-td" style="display:none;">
+            <div class="timer-text-td">
+                <h2 class="title-h">Сегодня</h2>
+            </div>
+            <div class="timer-block-td">
+                <div id="timer">
+                    <p id="p"></p>
+                    <p id="p2"></p>                       
+                </div>
+            </div>
+        </div>
+    <script src="js/today.js"></script>
+    
+    <div class="telegram">
+        <a href="https://t.me/jun_webs"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+    
+   
+    <div class="gitTimerBut">
+         <a href="github_timer.html"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+
+<!-- Триггер/Открыть модальный -->
+    <button id="myBtn">
+    <i class="fa-solid fa-palette">       
+    </i>
+    </button>
+
+    <!-- Модальный -->
+    <div id="myModal" class="modal">
+
+    <!-- Модальное содержание -->
+    <div class="modal-content">
+        <div class="theme">
+            <!-- <i class="fa-solid fa-circle change-theme" data-theme="light" style="color:#fff"></i>
+            <i class="fa-solid  fa-circle change-theme" data-theme="dark" style="color:#000;"></i>
+            <i class="fa-solid fa-circle change-theme" data-theme="greenblue" style="color:#81E247; ""></i>
+             -->
+    
+             <div class="change-theme circle-theme" data-theme="dark"></div>
+             <div class="change-theme circle-theme" data-theme="light"></div>
+             <div class="change-theme circle-theme" data-theme="greenblue"></div>
+             <div class="change-theme circle-theme" data-theme="pirple"></div>
+             <div class="change-theme circle-theme" data-theme="orange"></div>
+              <div class="change-theme circle-theme" data-theme="blue-pink"></div>
+             <div class="change-theme circle-theme" data-theme="white-pink"></div>
+             <script src="js/main.js"></script>
+    
+        </div>
+
+        <span class="close">Сохранить</span>
+    </div>
+
+</div>
+    
+    
+    
+    
+    <div class="container">
+        
+        
+        <div class="search-box">
+            <i class="fa-solid fa-location-arrow"></i>
+  
+            <input id="townInp" name="adress" class="t-input js-tilda-rule" type="text" placeholder="Ваш город" value="Москва">
+            <script src="js/settings.js"></script>
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <p></p>
+            <span></span>
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="">
+            <div class="wz-bx">
+                <p class="temperature">
+                </p>
+                <p class="far">             
+                </p>
+            </div>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water">
+                    <div class="text">
+                        <span></span>
+                        <p></p>
+                    </div>
+                </i>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind">
+                    <div class="text">
+                        <span></span>
+                        <p></p>
+                    </div>
+                </i>
+            </div>
+        </div>
+    </div>
+    
+   
+        
+    
+
+    <script src="js/lang/weather.js"></script>
+    <script src="js/rebrow/rebrow.js"></script>
+    <script src="js/modal/modal-theme.js"></script>
+</body>
+</html>
+
+<!-- v 1.6 -->
